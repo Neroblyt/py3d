@@ -1,4 +1,5 @@
 @echo off
+title Py3D CLI 1.1
 setlocal
 
 :: =========================
