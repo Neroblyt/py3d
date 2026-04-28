@@ -19,7 +19,7 @@ goto end
 
 
 :welcome
-echo Welcome in Py3D 🚀
+echo Welcome in Py3D
 echo Type: py3d -help
 pause
 goto end
@@ -27,7 +27,7 @@ goto end
 
 :help
 echo.
-echo Py3D helper 🚀
+echo Py3D helper
 echo =====================
 echo -help    : show help
 echo -venv    : create a .venv
@@ -45,9 +45,9 @@ echo Creating venv...
 py -3.12 -m venv .venv
 
 IF EXIST ".venv\" (
-    echo Venv created successfully 🚀
+    echo Venv created successfully
 ) ELSE (
-    echo Failed to create venv ❌
+    echo Failed to create venv
 )
 
 goto end
@@ -73,7 +73,7 @@ cd /d "%base%"
 
 if not exist "Py3D_project" mkdir "Py3D_project"
 
-echo print("Py3D project 🚀") > Py3D_project\main.py
+echo print("Py3D project") > Py3D_project\main.py
 
 echo Project created at %base%\Py3D_project
 goto end
