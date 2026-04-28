@@ -1,5 +1,5 @@
 @echo off
-title Py3D CLI 1.1
+title Py3D CLI 1.1.1
 setlocal
 
 :: =========================
@@ -21,6 +21,7 @@ goto end
 :welcome
 echo Welcome in Py3D 🚀
 echo Type: py3d -help
+pause
 goto end
 
 
@@ -34,6 +35,7 @@ echo -server  : start HTTP server
 echo -create  : create a project
 echo -run     : run a python file
 echo.
+pause
 goto end
 
 
