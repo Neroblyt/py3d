@@ -1,1 +1,0 @@
-ursina panda3d PyOpenGL PyOpenGL_accelerate vpython pyglet moderngl
