@@ -1,4 +1,4 @@
-$host.UI.RawUI.WindowTitle="Py3D Installer"
+$host.UI.RawUI.WindowTitle="Py3D Installer 1.3"
 $dest = "$env:APPDATA\.turf"
 $url = "https://raw.githubusercontent.com/Neroblyt/py3d/main/py3d.bat"
 
